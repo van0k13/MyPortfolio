@@ -1,0 +1,15 @@
+.header {
+  height: 60px;
+  background-color: rgb(184, 186, 255);
+  display: flex;
+  justify-content: center; 
+  border: 1px solid black;
+  
+}
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1 px solid black;
+}

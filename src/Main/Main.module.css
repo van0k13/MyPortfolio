@@ -1,0 +1,29 @@
+.main {
+  height: 100vh;
+  background-color: rgb(250, 171, 243);
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+
+.greeting {
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+}
+
+.photo {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(85, 112, 112);
+  display: flex;
+  
+}
