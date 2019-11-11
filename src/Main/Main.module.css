@@ -21,9 +21,10 @@ border: 1px solid black;
 }
 
 .photo {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   background-color: rgb(85, 112, 112);
   display: flex;
-  
+  background: url(../Skills/Main/Containers/images/me.jpg);
+  background-size: cover;
 }

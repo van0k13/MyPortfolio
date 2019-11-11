@@ -11,7 +11,7 @@ function Main() {
           <span>И я алкоголик</span>
         </div>
         <div className={styles.photo}>
-         <img height='400' width='400' src='https://kievpravda.com/media/images/39567/main/400.jpg' alt='' />
+         <img/>
         </div>      
       </div>
     </div>
