@@ -25,6 +25,6 @@ border: 1px solid black;
   width: 300px;
   background-color: rgb(85, 112, 112);
   display: flex;
-  background: url(../Skills/Main/Containers/images/me.jpg);
+  background: url(../Skills/Main/images/me.jpg);
   background-size: cover;
 }

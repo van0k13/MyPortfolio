@@ -1,4 +1,16 @@
 .works {
   height: 100vh;
   background-color: rgb(200, 125, 250);
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.container {
+  border: 1px solid black;
+  width: 80%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  text-align: center;
 }
