@@ -1,4 +1,55 @@
 .footer {
   height: 50vh;
   background-color: rgb(156, 102, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 80%;
+  border: 1px solid;
+}
+
+.socials {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.img1 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  background: url(img/facebook.png);
+  background-size: 100%;
+}
+
+.img2 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  background: url(img/instagram.png);
+  background-size: 100%;
+}
+
+.img3 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  background: url(img/twitter.png);
+  background-size: 100%;
+}
+
+.img4 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  background: url(img/youtube.png);
+  background-size: 100%;
 }
