@@ -1,5 +1,5 @@
 .skills {
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(171, 250, 201);
   display: flex;
   justify-content: center;

@@ -1,5 +1,5 @@
 .footer {
-  height: 50vh;
+  min-height: 50vh;
   background-color: rgb(156, 102, 129);
   display: flex;
   justify-content: center;
@@ -25,31 +25,34 @@
 .img1 {
   width: 60px;
   height: 60px;
-  background-color: rgb(0, 0, 0);
   background: url(img/facebook.png);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .img2 {
   width: 60px;
   height: 60px;
-  background-color: rgb(0, 0, 0);
   background: url(img/instagram.png);
   background-size: 100%;
+  background-repeat: no-repeat;
+
 }
 
 .img3 {
   width: 60px;
   height: 60px;
-  background-color: rgb(0, 0, 0);
   background: url(img/twitter.png);
   background-size: 100%;
+  background-repeat: no-repeat;
+
 }
 
 .img4 {
   width: 60px;
   height: 60px;
-  background-color: rgb(0, 0, 0);
   background: url(img/youtube.png);
   background-size: 100%;
+  background-repeat: no-repeat;
+
 }
