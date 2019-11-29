@@ -4,7 +4,7 @@ import styles from './SkillsHeader.module.css';
 function SkillsHeader() {
   return (
         <div className={styles.header}>
-        <h2>My Skills</h2>
+        <h1>My Skills</h1>
         </div>
   );
 }

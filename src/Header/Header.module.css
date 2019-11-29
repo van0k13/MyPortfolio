@@ -1,9 +1,8 @@
 .header {
   height: 60px;
-  background-color: rgb(184, 186, 255);
+  background-color: rgb(8, 122, 126);
   display: flex;
-  justify-content: center; 
-  border: 1px solid black;
+  justify-content: center;
   
 }
 .container {
@@ -11,5 +10,4 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 1 px solid black;
 }
