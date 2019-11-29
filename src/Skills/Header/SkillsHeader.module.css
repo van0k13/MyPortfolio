@@ -1,5 +1,5 @@
 .header {
-  height: 140px;
+  min-height: 140px;
   font-size: 35px;
   display: block; 
   color: aliceblue;

@@ -1,7 +1,7 @@
 .main {
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -12,33 +12,54 @@
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
-  justify-content: space-between;
-  
+  justify-content: space-around; 
+}
+.textStylization{
+  color: aliceblue;
+  transition: 2s all;
+  opacity: 0.7;
+}
+.textStylization:hover{
+  transition: 2s all;
+  transform: rotateX(360deg);
+  color:  rgb(76, 100, 100)
 }
 
 .skillPhoto1{
- 
-  width: 150px;
-  height: 150px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
   background-color: rgb(0, 0, 0);
-  background: url(images/speed.jpg);
-  background-size: 100%;
+  background: url(images/speed.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .skillPhoto2{
- 
-  width: 150px;
-  height: 150px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
   background-color: rgb(0, 0, 0);
-  background: url(images/strength.jpg);
+  background: url(images/strength.png);
   background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .skillPhoto3{
- 
-  width: 150px;
-  height: 150px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
   background-color: rgb(0, 0, 0);
-  background: url(images/guitarability.jpg);
+  background: url(images/guitarability.png);
   background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

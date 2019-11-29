@@ -20,7 +20,7 @@ flex-direction: column;
 }
 
 .profileStatus {
-  color: white;
+  color: aliceblue;
   font-size: 40px;
   transition: all 0.4s ease 0s;
 }
