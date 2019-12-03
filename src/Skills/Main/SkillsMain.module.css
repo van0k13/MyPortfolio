@@ -20,6 +20,7 @@
   opacity: 0.7;
 }
 .textStylization:hover{
+  opacity: 1;
   transition: 2s all;
   transform: rotateX(360deg);
   color:  rgb(76, 100, 100)

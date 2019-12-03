@@ -6,7 +6,7 @@ function Contacts() {
     <div className={styles.contacts}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2>Contacts</h2>
+          <h2 className={styles.text}>Contacts</h2>
         </div>
         <form className={styles.form}>
           <input type='text' placeholder='Name' />

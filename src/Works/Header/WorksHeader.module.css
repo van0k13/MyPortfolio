@@ -1,5 +1,10 @@
 .header {
-  height: 150px;
-  border: 1px solid black;
+  min-height: 140px;
+  font-size: 35px;
   display: block; 
+  color: aliceblue;
+  transition: 2s all;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.7em;
 }

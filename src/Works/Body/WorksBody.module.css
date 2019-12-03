@@ -3,21 +3,30 @@
   align-items: stretch;
   justify-content: space-between;
   flex-wrap: wrap;
+} @media screen and (max-width: 1086px) {
+  .main {
+    justify-content: center;
+  }
 }
 
 .worksName {
-  border: 1px solid black;
   width: 300px;
   height: 350px;
   flex-direction: column;
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
-  justify-content: space-between;
+  justify-content: center;
+  margin: 10px;
+} @media screen and (max-width: 350px) {
+  .worksName {
+    width: 100%;  
+  } 
 }
 
+
 .worksPhoto1{
- 
+  border-radius: 20px;
   width: 250px;
   height: 250px;
   background-color: rgb(0, 0, 0);
@@ -25,10 +34,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}@media screen and (max-width: 350px) {
+  .worksPhoto1 {
+    width: 100%;  
+  } 
 }
 
 .worksPhoto2{
- 
+  border-radius: 20px;
   width: 250px;
   height: 250px;
   background-color: rgb(0, 0, 0);
@@ -39,7 +52,7 @@
 }
 
 .worksPhoto3{
- 
+  border-radius: 20px;
   width: 250px;
   height: 250px;
   background-color: rgb(0, 0, 0);
@@ -50,8 +63,17 @@
 }
 
 .spanText {
-  text-align: right;
+  text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    transition: 2s all;
+    opacity: 0.7;
+}
+.spanText:hover{
+  opacity: 1;
+  transition: 2s all;
+  transform: rotateX(360deg);
+  color:  rgb(76, 100, 100)
 }
 
 .worksButton {

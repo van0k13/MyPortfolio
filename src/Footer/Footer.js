@@ -6,7 +6,7 @@ function Footer() {
     <div className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2>Follow me:</h2>
+          <h2 className={styles.top}>Follow me:</h2>
         </div>
         <div className={styles.socials}>
           <div className={styles.img1}>
@@ -20,7 +20,7 @@ function Footer() {
         </div>
         <div className={styles.bottom}>
           © 2019 Ivan Inc. All Rights Reserved
-          </div>
+        </div>
       </div>
 
     </div>

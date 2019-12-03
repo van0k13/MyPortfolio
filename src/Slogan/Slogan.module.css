@@ -1,19 +1,35 @@
 .slogan {
-  min-height: 30vh;
-  background-color: rgb(250, 191, 103);
+  min-height: 40vh;
+  background-color: rgb(170, 159, 165);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
+  background-color: #B4EAD3;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 80%;
-  border: 1px solid;
-  justify-content: space-between;
-  height: 70%;
+  justify-content: space-evenly;
+  width: 50%;
+  border-radius: 20px;
+  min-height: 250px;
+}
+
+.text{
+  color: aliceblue;
+  font-size: 40px;
+  transition: 2s all;
+}@media screen and (max-width: 500px) {
+  .text {
+    width: 100%;  
+    font-size: medium;
+  } 
+}
+.text:hover {
+  color: rgb(226, 19, 19);
+  transition: 2s all;
 }
 
 .sloganButton {
