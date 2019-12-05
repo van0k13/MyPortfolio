@@ -3,6 +3,10 @@
   background-color: rgb(8, 122, 126);
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  opacity: 0.3;
+  z-index: 9;
   
 }
 .container {

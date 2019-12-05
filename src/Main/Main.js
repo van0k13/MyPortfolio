@@ -6,13 +6,13 @@ function Main() {
     <div className={styles.main}>
       <div className={styles.container}>
         <div className={styles.greeting}>
-          <h2 className={styles.profileStatus}>Привет!<br/>
-          Меня зовут Ванёк<br/>
-          И я Reactogolik</h2>
+          <h3 className={styles.profileStatush3}>Hello buddy!</h3>
+          <h1 className={styles.profileStatush1}>I am <span>React developer</span></h1>
+          <h3 className={styles.profileStatush3}>Enjoy my potrfolio</h3>
         </div>
         <div className={styles.photo}>
-         <img/>
-        </div>      
+          <div className={styles.image} />
+        </div>
       </div>
     </div>
   );

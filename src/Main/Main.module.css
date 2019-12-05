@@ -3,12 +3,14 @@
   background-color: rgb(170, 159, 165);
   display: flex;
   justify-content: center;
+  border-bottom: black solid 3px;
+  padding-top: 60px;
 }
 .container {
   background-color: #B4EAD3;
   width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -16,27 +18,75 @@
 .greeting {
 display: flex;
 flex-direction: column;
-
+}
+.greeting span:nth-child(1):before {
+content: '';
+position: absolute;
+width: 94px;
+height: 17px;
+background-color: rgba(68, 75, 139, 0.658);
+z-index: -1;
+bottom: 33px;
+border-radius: 3px;
+}@media screen and (max-width: 400px) {
+  .greeting span:nth-child(1):before {
+    bottom: 33px;
+    width: 100px;
+  } 
 }
 
-.profileStatus {
-  width: 100%;
-  color: aliceblue;
-  font-size: 40px;
+.profileStatush3 {
+  width: 100%; 
   transition: all 1s ease 0s;
+  z-index: 0;
 }
-.profileStatus:hover {
+.profileStatush1 {
+  width: 80%;
+  margin: 10px;
+  font-weight: 700;
+  color: aliceblue;
+  transition: all 1s ease 0s;
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+  z-index: 0;
+}
+.profileStatush1:hover {
   letter-spacing: 3px;
   transition: all 1s ease 0s;
 }
 
 .photo {
-  border-radius: 20px;
-  height: 300px;
-  width: 300px;
-  background-color: rgb(85, 112, 112);
-  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.image {
   background: url(../tom.jpg);
-  background-size: cover;
+  width: 300px;
+  height: 300px;
   background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgb(85, 112, 112);
+}@media screen and (max-width: 465px) {
+  .image {
+    width: 180px;
+    background-position: center;
+  }
+}
+.photo .image:before {
+  content: '';
+  position: absolute;
+  width: 350px;
+  height: 380px;
+  border: 5px solid rgba(68, 75, 139, 0.658);
+  top: -15px;
+  left: 18px;
+  border-radius: 10px;
+  z-index: -1;
+}@media screen and (max-width: 465px) {
+  .photo .image:before {
+    width: 100%;
+    height: 100%;
+  }
 }

@@ -19,12 +19,13 @@
 
 .text{
   color: aliceblue;
-  font-size: 40px;
+  font-size: 30px;
   transition: 2s all;
+  text-align: center;
 }@media screen and (max-width: 500px) {
   .text {
     width: 100%;  
-    font-size: medium;
+    font-size: 15px;
   } 
 }
 .text:hover {
@@ -35,4 +36,8 @@
 .sloganButton {
   width: 150px;
   height: 50px;
+}@media screen and (max-width: 400px) {
+  .sloganButton {
+    width: 100%;  
+  } 
 }

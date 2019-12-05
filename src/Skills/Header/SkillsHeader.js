@@ -3,9 +3,10 @@ import styles from './SkillsHeader.module.css';
 
 function SkillsHeader() {
   return (
-        <div className={styles.header}>
-        <h1>My Skills</h1>
-        </div>
+    <div className={styles.header}>
+      <h2 className={styles.headerTitle}>My Skills</h2>
+      <div className={styles.line}></div>
+    </div>
   );
 }
 
