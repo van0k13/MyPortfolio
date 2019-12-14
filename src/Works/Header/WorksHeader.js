@@ -3,9 +3,10 @@ import styles from './WorksHeader.module.css';
 
 function WorksHeader() {
   return (
-        <div className={styles.header}>
-        <h2>My Works</h2>
-        </div>
+    <div className={styles.header}>
+      <h2 className={styles.headerTitle}>my projecs</h2>
+      <div className={styles.line}></div>
+    </div>
   );
 }
 

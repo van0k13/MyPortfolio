@@ -16,6 +16,7 @@
 }
 .textStylization{
   color: aliceblue;
+  font-weight: 300;
   transition: 2s all;
   opacity: 0.7;
 }
@@ -27,7 +28,7 @@
 }
 
 .skillPhoto1{
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgba(26, 29, 31, 0.486);
   border-radius: 20px;
   width: 200px;
   height: 200px;
@@ -40,7 +41,7 @@
 }
 
 .skillPhoto2{
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgba(26, 29, 31, 0.486);
   border-radius: 20px;
   width: 200px;
   height: 200px;
@@ -53,7 +54,7 @@
 }
 
 .skillPhoto3{
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgba(26, 29, 31, 0.486);
   border-radius: 20px;
   width: 200px;
   height: 200px;

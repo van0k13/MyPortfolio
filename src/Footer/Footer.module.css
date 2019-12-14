@@ -1,6 +1,6 @@
 .footer {
   min-height: 50vh;
-  background-color: #B4EAD3;
+  background-color: #252527;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +15,11 @@
   height: 300px;
 }
 
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
 .socials {
   display: flex;
   width: 60%;
@@ -23,13 +28,23 @@
 
 .bottom {
   color: aliceblue;
-  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
   text-align: center;
 }
 
 .top {
+  margin: 0px auto;
   color: aliceblue;
-  font-size: 40px;
+  transition: 2s all;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-stretch: normal;
+  line-height: 1.2;
+  font-size: 36px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .img1 {
@@ -46,7 +61,6 @@
   background: url(img/instagram.png);
   background-size: 100%;
   background-repeat: no-repeat;
-
 }
 
 .img3 {
@@ -55,7 +69,6 @@
   background: url(img/twitter.png);
   background-size: 100%;
   background-repeat: no-repeat;
-
 }
 
 .img4 {
@@ -64,5 +77,10 @@
   background: url(img/youtube.png);
   background-size: 100%;
   background-repeat: no-repeat;
-
+}
+.line{
+  background-color: rgba(68, 75, 139, 0.658);
+  height: 1px;
+  width: 55px;
+  margin: 20px auto;
 }

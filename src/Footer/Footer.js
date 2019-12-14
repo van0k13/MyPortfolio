@@ -7,6 +7,7 @@ function Footer() {
       <div className={styles.container}>
         <div className={styles.header}>
           <h2 className={styles.top}>Follow me:</h2>
+          <span className={styles.line}></span>
         </div>
         <div className={styles.socials}>
           <div className={styles.img1}>

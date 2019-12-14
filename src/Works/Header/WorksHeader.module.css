@@ -1,10 +1,22 @@
 .header {
-  min-height: 140px;
-  font-size: 35px;
-  display: block; 
+  min-height: 100px;
+  padding:20px;
+}
+.headerTitle {
   color: aliceblue;
   transition: 2s all;
-  text-transform: uppercase;
   font-weight: bold;
-  line-height: 1.7em;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-stretch: normal;
+  line-height: 1.2;
+  font-size: 36px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.line{
+  background-color: rgba(68, 75, 139, 0.658);
+  height: 1px;
+  width: 55px;
+  margin: 30px auto;
 }

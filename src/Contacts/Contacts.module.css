@@ -1,13 +1,12 @@
 .contacts {
   min-height: 80vh;
-  background-color: rgb(8, 122, 126);
+  background-color: #1f1f20;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
-  background-color: rgb(170, 159, 165);
   display: flex;
   width: 80%;
   min-height: 350px;
@@ -17,14 +16,32 @@
   border-radius: 10px;
 }
 
-.contactsButton {
-  width: 150px;
-  height: 50px;
+.header {
   display: flex;
-  justify-content: center;
-}@media screen and (max-width: 250px) {
-  .contactsButton {
+  flex-direction: column;
+}
+.line{
+  background-color: rgba(68, 75, 139, 0.658);
+  height: 1px;
+  width: 55px;
+  margin: 20px auto;
+}
+.text{
+  margin: 0px auto;
+  color: aliceblue;
+  transition: 2s all;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-stretch: normal;
+  line-height: 1.2;
+  font-size: 36px;
+  font-family: 'Josefin Sans', sans-serif;
+}@media screen and (max-width: 500px) {
+  .text {
     width: 100%;  
+    ;
   } 
 }
 
@@ -39,15 +56,24 @@
     width: 100%;
   }
 }
+.formInput{
+  margin: 10px;
+  font-size: 17px;
+  border: 1px solid #4a4a4a;
+  border-radius: 0;
+  background-color: #252527 !important;
+  font-family: 'Josefin Sans', sans-serif;
 
-.text{
-  color: aliceblue;
-  font-size: 30px;
-  transition: 2s all;
-}@media screen and (max-width: 500px) {
-  .text {
+}
+
+.contactsButton {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}@media screen and (max-width: 250px) {
+  .contactsButton {
     width: 100%;  
-    ;
   } 
 }
 

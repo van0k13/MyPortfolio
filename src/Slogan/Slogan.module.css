@@ -1,13 +1,12 @@
 .slogan {
-  min-height: 40vh;
-  background-color: rgb(170, 159, 165);
+  min-height: 60vh;
+  background-color: #252527;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container {
-  background-color: #B4EAD3;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -17,11 +16,23 @@
   min-height: 250px;
 }
 
+.textAndLine {
+  display: flex;
+  flex-direction: column;
+}
+
 .text{
+  margin: 0px auto;
   color: aliceblue;
-  font-size: 30px;
   transition: 2s all;
-  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-stretch: normal;
+  line-height: 1.2;
+  font-size: 36px;
+  font-family: 'Josefin Sans', sans-serif;
 }@media screen and (max-width: 500px) {
   .text {
     width: 100%;  
@@ -29,15 +40,24 @@
   } 
 }
 .text:hover {
-  color: rgb(226, 19, 19);
+  color: rgba(68, 75, 139, 0.658);
   transition: 2s all;
 }
 
 .sloganButton {
   width: 150px;
   height: 50px;
+  color: aliceblue;
+  background-color: #1f1f20;
+  font-family:'Josefin Sans', sans-serif; ;
 }@media screen and (max-width: 400px) {
   .sloganButton {
     width: 100%;  
   } 
+}
+.line{
+  background-color: rgba(68, 75, 139, 0.658);
+  height: 1px;
+  width: 55px;
+  margin: 20px auto;
 }

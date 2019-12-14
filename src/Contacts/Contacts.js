@@ -6,12 +6,13 @@ function Contacts() {
     <div className={styles.contacts}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2 className={styles.text}>Contacts</h2>
+          <h2 className={styles.text}>Contact</h2>
+          <span className={styles.line}></span>
         </div>
         <form className={styles.form}>
-          <input type='text' placeholder='Name' />
-          <input type='text' placeholder='E-mail' />
-          <textarea rows='8' placeholder="Your message" />
+          <input className={styles.formInput} type='text' placeholder='Name' />
+          <input className={styles.formInput} type='text' placeholder='E-mail' />
+          <textarea className={styles.formInput} rows='8' placeholder="Your message" />
         </form>
         <div >
           <button className={styles.contactsButton}>Submit</button>
