@@ -20,19 +20,6 @@
   flex-direction: column;
 }
 
-.socials {
-  display: flex;
-  width: 60%;
-  justify-content: space-between;
-}
-
-.bottom {
-  color: aliceblue;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  text-align: center;
-}
-
 .top {
   margin: 0px auto;
   color: aliceblue;
@@ -45,14 +32,32 @@
   line-height: 1.2;
   font-size: 36px;
   font-family: 'Josefin Sans', sans-serif;
+}.line{
+  background-color: rgba(68, 75, 139, 0.658);
+  height: 1px;
+  width: 55px;
+  margin: 20px auto;
 }
-
+.socials {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}@media screen and (max-width: 581px) {
+  .socials {
+    width: 100%;
+  }
+}
 .img1 {
   width: 60px;
   height: 60px;
   background: url(img/facebook.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}@media screen and (max-width: 581px) {
+  .img1{
+    width: 40px;
+  height: 40px;
+  }
 }
 
 .img2 {
@@ -61,6 +66,11 @@
   background: url(img/instagram.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}@media screen and (max-width: 581px) {
+  .img2{
+    width: 40px;
+  height: 40px;
+  }
 }
 
 .img3 {
@@ -69,18 +79,28 @@
   background: url(img/twitter.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}@media screen and (max-width: 581px) {
+  .img3{
+    width: 40px;
+  height: 40px;
+  }
 }
-
 .img4 {
   width: 60px;
   height: 60px;
   background: url(img/youtube.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}@media screen and (max-width: 581px) {
+  .img4{
+    width: 40px;
+  height: 40px;
+  }
 }
-.line{
-  background-color: rgba(68, 75, 139, 0.658);
-  height: 1px;
-  width: 55px;
-  margin: 20px auto;
+
+.bottom {
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: center;
 }
