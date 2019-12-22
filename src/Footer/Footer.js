@@ -16,8 +16,6 @@ function Footer() {
           </div>
           <div className={styles.img3}>
           </div>
-          <div className={styles.img4}>
-          </div>
         </div>
         <div className={styles.bottom}>
           © 2019 Ivan Inc. All Rights Reserved

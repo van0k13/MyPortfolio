@@ -40,11 +40,11 @@
 }
 .socials {
   display: flex;
-  width: 60%;
+  width: 50%;
   justify-content: space-between;
-}@media screen and (max-width: 581px) {
+}@media screen and (max-width: 893px) {
   .socials {
-    width: 100%;
+    width: 80%;
   }
 }
 .img1 {
@@ -53,11 +53,6 @@
   background: url(img/facebook.png);
   background-size: 100%;
   background-repeat: no-repeat;
-}@media screen and (max-width: 581px) {
-  .img1{
-    width: 40px;
-  height: 40px;
-  }
 }
 
 .img2 {
@@ -66,11 +61,6 @@
   background: url(img/instagram.png);
   background-size: 100%;
   background-repeat: no-repeat;
-}@media screen and (max-width: 581px) {
-  .img2{
-    width: 40px;
-  height: 40px;
-  }
 }
 
 .img3 {
@@ -79,23 +69,6 @@
   background: url(img/twitter.png);
   background-size: 100%;
   background-repeat: no-repeat;
-}@media screen and (max-width: 581px) {
-  .img3{
-    width: 40px;
-  height: 40px;
-  }
-}
-.img4 {
-  width: 60px;
-  height: 60px;
-  background: url(img/youtube.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}@media screen and (max-width: 581px) {
-  .img4{
-    width: 40px;
-  height: 40px;
-  }
 }
 
 .bottom {

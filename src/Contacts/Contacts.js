@@ -15,7 +15,7 @@ function Contacts() {
           <textarea className={styles.formInput} rows='8' placeholder="Your message" />
         </form>
         <div >
-          <button className={styles.contactsButton}>Submit</button>
+          <button className={styles.worksButton}><span>Submit</span></button>
         </div>
       </div>
       
