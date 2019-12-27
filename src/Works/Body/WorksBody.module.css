@@ -1,8 +1,9 @@
 .main {
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 } @media screen and (max-width: 1199px) {
   .main {
     justify-content: center;
@@ -10,18 +11,18 @@
 }
 
 .worksName {
-  width: 300px;
-  height: 350px;
+  width: 450px;
+  height: 750px;
   flex-direction: column;
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
   justify-content: space-around; 
-  padding: 10px;
-}@media screen and (max-width: 350px) {
+  padding: 30px;
+}@media screen and (max-width: 650px) {
   .worksName {
     width: 100%;  
-  } 
+  }
 }
 
 
@@ -29,46 +30,71 @@
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  width: 250px;
-  height: 250px;
+  align-items: center;
+  width: 450px;
+  height: 650px;
   background-color: rgb(0, 0, 0);
   background: url(images/portfolio.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}@media screen and (max-width: 350px) {
+}@media screen and (max-width: 650px) {
   .worksPhoto1 {
     width: 100%;  
-  } 
+  }
 }
 
 .worksPhoto2{
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   border-radius: 20px;
-  width: 250px;
-  height: 250px;
+  width: 450px;
+  height: 650px;
   background-color: rgb(0, 0, 0);
   background: url(images/SocialPage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}@media screen and (max-width: 650px) {
+  .worksPhoto2 {
+    width: 100%;  
+  }
 }
 
 .worksPhoto3{
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   border-radius: 20px;
-  width: 250px;
-  height: 250px;
+  width: 450px;
+  height: 650px;
   background-color: rgb(0, 0, 0);
   background: url(images/todolist.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}@media screen and (max-width: 650px) {
+  .worksPhoto3 {
+    width: 100%;  
+  }
+}
+.worksPhoto4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 450px;
+  height: 650px;
+  background-color: rgb(0, 0, 0);
+  background: url(images/countingMachine.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}@media screen and (max-width: 650px) {
+  .worksPhoto4 {
+    width: 100%;  
+  }
 }
 
 .spanText {
@@ -86,7 +112,7 @@
 
 .worksButton {
   color: rgba(255, 255, 255, 0);
-  opacity: 0.2;
+  opacity: 0.4;
   transition: all 0.5s;
   border-radius: 20px;;
   position: relative;
@@ -97,7 +123,7 @@
   background-color: rgb(153, 162, 177);
 }
 .worksButton:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 .worksButton span {
 	transition: all 0.3s;
@@ -118,7 +144,7 @@
 	transform: scale(0.1, 1);
 }
 .worksButton:hover span {
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   font-size: 25px;
   color:  rgb(76, 100, 100)
 }

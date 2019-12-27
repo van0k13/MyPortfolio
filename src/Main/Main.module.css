@@ -12,6 +12,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
 .greeting {
@@ -26,11 +27,11 @@ width: 340px;
 height: 17px;
 background-color: rgba(68, 75, 139, 0.658);
 z-index: -1;
-bottom: -4px;
+bottom: 0px;
 border-radius: 3px;
-}@media screen and (max-width: 581px) {
+}@media screen and (max-width: 599px) {
   .greeting span:nth-child(1):before {
-    bottom: 36px;
+    bottom: 48px;
     width: 120px;
   } 
 }
@@ -55,6 +56,8 @@ border-radius: 3px;
 .photo {
   position: relative;
   z-index: 1;
+  margin: 30px;
+  
 }
 .image {
   background: url(../tom.jpg);

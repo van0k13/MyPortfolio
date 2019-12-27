@@ -10,4 +10,5 @@
   align-items: stretch;
   flex-direction: column;
   text-align: center;
+  padding: 20px;
 }

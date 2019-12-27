@@ -7,7 +7,7 @@ function WorksBody() {
       <div className={styles.worksName}>
         <div className={styles.worksPhoto1}>
           <button className={styles.worksButton}>
-            <span>Enlarge</span></button>
+            <span>Open</span></button>
         </div>
         <h2 className={styles.spanText}>Portfolio</h2>
         <span className={styles.spanText}>skill description and skill description and
@@ -16,7 +16,7 @@ function WorksBody() {
       </div>
       <div className={styles.worksName}>
         <div className={styles.worksPhoto2}>
-          <button className={styles.worksButton}><span>Enlarge</span></button>
+          <button className={styles.worksButton}><span>Open</span></button>
         </div>
         <h2 className={styles.spanText}>Social page</h2>
         <span className={styles.spanText}>skill description and skill description and
@@ -25,9 +25,18 @@ function WorksBody() {
       </div>
       <div className={styles.worksName}>
         <div className={styles.worksPhoto3}>
-          <button className={styles.worksButton}><span>Enlarge</span></button>
+          <button className={styles.worksButton}><span>Open</span></button>
         </div>
         <h2 className={styles.spanText}>TodoList</h2>
+        <span className={styles.spanText}>skill description and skill description and
+        skill description and skill description
+        </span>
+      </div>
+      <div className={styles.worksName}>
+        <div className={styles.worksPhoto4}>
+          <button className={styles.worksButton}><span>Open</span></button>
+        </div>
+        <h2 className={styles.spanText}>Counting Machine</h2>
         <span className={styles.spanText}>skill description and skill description and
         skill description and skill description
         </span>

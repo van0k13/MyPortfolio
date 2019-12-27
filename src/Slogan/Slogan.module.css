@@ -12,14 +12,19 @@
   flex-direction: column;
   justify-content: space-evenly;
   width: 50%;
-  border-radius: 20px;
   min-height: 250px;
 }
 
 .textAndLine {
   display: flex;
   text-align: center;
+  justify-content: center;
   flex-direction: column;
+  width: 100%;
+}@media screen and (max-width: 500px) {
+  .textAndLine {
+    width: 80%;
+  } 
 }
 
 .text{
@@ -35,10 +40,13 @@
   font-size: 36px;
   font-family: 'Josefin Sans', sans-serif;
 }@media screen and (max-width: 500px) {
-  .text {
-    width: 100%;  
-    font-size: 15px;
-  } 
+  .text{
+    width: 80%;
+    font-size: 26px;
+  }
+  .container {
+    width: 70%;
+  }
 }
 .text:hover {
   color: rgba(68, 75, 139, 0.658);
