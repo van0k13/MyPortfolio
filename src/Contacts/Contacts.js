@@ -7,7 +7,7 @@ function Contacts() {
       <div className={styles.container}>
         <div className={styles.header}>
           <h2 className={styles.text}>Contact</h2>
-          <span className={styles.line}></span>
+          <span className={styles.linee}></span>
         </div>
         <form className={styles.form}>
           <input className={styles.formInput} type='text' placeholder='Name' />

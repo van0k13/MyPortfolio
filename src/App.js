@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter, Route} from 'react-router-dom';
 import Header from './Header/Header';
 import Main from './Main/Main';
 import Skills from './Skills/Skills';
@@ -13,18 +14,19 @@ import Footer from './Footer/Footer';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <div className="portfolio">
         <Header />
-        <Main />
+        <Route path='/main' component={<Main />} />  
         <Skills />
         <Works />
         <Slogan />
         <Contacts />
         <Footer />
-
       </div>
     </div>
+    </BrowserRouter>
       );
     }
     

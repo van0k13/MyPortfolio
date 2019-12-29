@@ -10,3 +10,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.header {
+  min-height: 100px;
+  padding:20px;
+} .headerTitle {
+  color: aliceblue;
+  transition: 2s all;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-stretch: normal;
+  line-height: 1.2;
+  font-size: 36px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 20px auto;
+} .line {
+  background-color: rgba(68, 75, 139, 0.658);
+  height: 2px;
+  width: 55px;
+  margin: 20px auto;
+}
+
+.photo_WorkBlock {
+  background-size: cover !important; 
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 650px;
+  background-color: rgb(0, 0, 0);
+}@media screen and (max-width: 650px) {
+  .photo_WorkBlock {
+    width: 100%;
+    height: 300px;
+  }
+}
+.iconsFooter {
+  width: 60px;
+  height: 60px;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.mainButton {
+  color: rgba(255, 255, 255, 0);
+  transition: all 0.5s;
+  position: relative;
+	height: 50px;
+	text-align: center;
+	width: 150px;
+  cursor: pointer;
+  background-color: #1f1f20;
+  font-family:'Josefin Sans', sans-serif;
+} .mainButton:hover {
+  opacity: 1;
+} .mainButton::before{
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	width: 80%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0.1;
+	transition: all 1s;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(68, 75, 139);
+	transform: scale(0.1, 1);
+} .mainButton:hover::before {
+  opacity: 1;	
+	transform: scale(1, 1);	
+} .mainButton::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	background-color: rgba(255, 255, 255, 0.116);
+}

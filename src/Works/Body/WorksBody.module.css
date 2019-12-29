@@ -21,81 +21,31 @@
   padding: 30px;
 }@media screen and (max-width: 650px) {
   .worksName {
-    width: 100%;  
+    width: 100%;
+    height: 300px;
   }
 }
 
 
 .worksPhoto1{
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 450px;
-  height: 650px;
-  background-color: rgb(0, 0, 0);
+  composes: photo_WorkBlock from '../../index.css';
   background: url(images/portfolio.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}@media screen and (max-width: 650px) {
-  .worksPhoto1 {
-    width: 100%;  
-  }
 }
 
 .worksPhoto2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  width: 450px;
-  height: 650px;
-  background-color: rgb(0, 0, 0);
+  composes: photo_WorkBlock from '../../index.css';
   background: url(images/SocialPage.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}@media screen and (max-width: 650px) {
-  .worksPhoto2 {
-    width: 100%;  
-  }
 }
 
 .worksPhoto3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  width: 450px;
-  height: 650px;
-  background-color: rgb(0, 0, 0);
+  composes: photo_WorkBlock from '../../index.css';
   background: url(images/todolist.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}@media screen and (max-width: 650px) {
-  .worksPhoto3 {
-    width: 100%;  
-  }
 }
 .worksPhoto4{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  width: 450px;
-  height: 650px;
-  background-color: rgb(0, 0, 0);
+  composes: photo_WorkBlock from '../../index.css';
   background: url(images/countingMachine.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}@media screen and (max-width: 650px) {
-  .worksPhoto4 {
-    width: 100%;  
-  }
 }
+
 
 .spanText {
   color: aliceblue;
@@ -110,57 +60,23 @@
   color:  rgb(76, 100, 100)
 }
 
+
 .worksButton {
-  color: rgba(255, 255, 255, 0);
+  composes: mainButton from '../../index.css';
   opacity: 0.4;
-  transition: all 0.5s;
-  border-radius: 20px;;
-  position: relative;
-	height: 50px;
-	text-align: center;
+  border-radius: 20px;
 	width: 70%;
-  cursor: pointer;
   background-color: rgb(153, 162, 177);
-}
-.worksButton:hover {
-  opacity: 1;
 }
 .worksButton span {
 	transition: all 0.3s;
-}
-.worksButton::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 20px;
-	width: 80%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0.1;
-	transition: all 1s;
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
-	border-bottom-color: rgb(68, 75, 139);
-	transform: scale(0.1, 1);
 }
 .worksButton:hover span {
   letter-spacing: 5px;
   font-size: 25px;
   color:  rgb(76, 100, 100)
 }
-.worksButton:hover::before {
-	opacity: 1;	
-	transform: scale(1, 1);	
-}
 .worksButton::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transition: all 0.3s;
   background-color: rgba(224, 50, 50, 0);
   border-radius: 20px;
 }

@@ -1,22 +1,9 @@
 .header {
-  min-height: 100px;
-  padding:20px;
+  composes: header from '../../index.css';
 }
 .headerTitle {
-  color: aliceblue;
-  transition: 2s all;
-  font-weight: bold;
-  text-transform: capitalize;
-  letter-spacing: 3px;
-  font-weight: 300;
-  font-stretch: normal;
-  line-height: 1.2;
-  font-size: 36px;
-  font-family: 'Josefin Sans', sans-serif;
+  composes: headerTitle from '../../index.css';
 }
 .line{
-  background-color: rgba(68, 75, 139, 0.658);
-  height: 1px;
-  width: 55px;
-  margin: 30px auto;
+  composes: line from '../../index.css';
 }

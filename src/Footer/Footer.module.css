@@ -21,22 +21,9 @@
 }
 
 .top {
-  margin: 0px auto;
-  color: aliceblue;
-  transition: 2s all;
-  font-weight: bold;
-  text-transform: capitalize;
-  letter-spacing: 3px;
-  font-weight: 300;
-  font-stretch: normal;
-  line-height: 1.2;
-  font-size: 36px;
-  font-family: 'Josefin Sans', sans-serif;
+  composes: headerTitle from '../index.css';
 }.line{
-  background-color: rgba(68, 75, 139, 0.658);
-  height: 1px;
-  width: 55px;
-  margin: 20px auto;
+  composes: line from '../index.css';
 }
 .socials {
   display: flex;
@@ -48,27 +35,18 @@
   }
 }
 .img1 {
-  width: 60px;
-  height: 60px;
   background: url(img/facebook.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  composes: iconsFooter from '../index.css';
 }
 
 .img2 {
-  width: 60px;
-  height: 60px;
   background: url(img/instagram.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  composes: iconsFooter from '../index.css';
 }
 
 .img3 {
-  width: 60px;
-  height: 60px;
   background: url(img/twitter.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  composes: iconsFooter from '../index.css';
 }
 
 .bottom {
