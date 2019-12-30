@@ -1,54 +1,31 @@
-.main {
+.mainBlocks {
   display: flex;
-  align-items: stretch;
-  justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
-} @media screen and (max-width: 1199px) {
-  .main {
-    justify-content: center;
-  }
+  justify-content: space-evenly;
+  padding: 20px;
 }
-
-.worksName {
-  width: 450px;
-  height: 750px;
+.worksBlock {
+  width: 330px;
   flex-direction: column;
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
   justify-content: space-around; 
-  padding: 30px;
-}@media screen and (max-width: 650px) {
-  .worksName {
+}@media screen and (max-width: 500px) {
+  .worksBlock{
     width: 100%;
-    height: 300px;
   }
 }
 
-
-.worksPhoto1{
-  composes: photo_WorkBlock from '../../index.css';
-  background: url(images/portfolio.jpeg);
+.worksPhotoBlock img{
+    width: 100%;
+    height: 450px;
+    margin: 10px !important;
 }
-
-.worksPhoto2{
-  composes: photo_WorkBlock from '../../index.css';
-  background: url(images/SocialPage.jpg);
-}
-
-.worksPhoto3{
-  composes: photo_WorkBlock from '../../index.css';
-  background: url(images/todolist.png);
-}
-.worksPhoto4{
-  composes: photo_WorkBlock from '../../index.css';
-  background: url(images/countingMachine.jpg);
-}
-
 
 .spanText {
   color: aliceblue;
+  text-transform: capitalize;
   font-weight: 300;
   transition: 2s all;
   opacity: 0.7;

@@ -1,30 +1,13 @@
 import React from 'react';
 import styles from './SkillsMain.module.css';
+import SkillMain from './SkillMain';
 
-function SkillsMain() {
+function SkillsMain(props) {
+  let skillsElements = props.skills.map( s =>
+    <SkillMain name={s.name} text={s.description} img={s.img} />)
   return (
     <div className={styles.main}>
-      <div className={styles.skillName}>
-        <div className={styles.skillPhoto1}>
-
-        </div>
-        <h2 className={styles.textStylization}>React</h2>
-        <span className={styles.textStylization}>vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim</span>
-      </div>
-      <div className={styles.skillName}>
-        <div className={styles.skillPhoto2}>
-
-        </div>
-        <h2 className={styles.textStylization}>{'CSSandJS'}</h2>
-        <span className={styles.textStylization}>vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim</span>
-      </div>
-      <div className={styles.skillName}>
-        <div className={styles.skillPhoto3}>
-
-        </div>
-        <h2 className={styles.textStylization}>HTMLandJSX</h2>
-        <span className={styles.textStylization}>vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim</span>
-      </div>
+     {skillsElements}
     </div>
   );
 }

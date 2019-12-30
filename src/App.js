@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import Header from './Header/Header';
 import Main from './Main/Main';
 import Skills from './Skills/Skills';
@@ -12,15 +12,15 @@ import Footer from './Footer/Footer';
 
 
 
-function App() {
+function App(props) {
   return (
     <BrowserRouter>
     <div className="App">
       <div className="portfolio">
         <Header />
-        <Route path='/main' component={<Main />} />  
-        <Skills />
-        <Works />
+        <Main />
+        <Skills skills={props.store.state.skills}/>
+        <Works projects={props.store.state.projects}/>
         <Slogan />
         <Contacts />
         <Footer />

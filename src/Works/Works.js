@@ -3,12 +3,13 @@ import styles from './Works.module.css';
 import WorksHeader from './Header/WorksHeader';
 import WorksBody from './Body/WorksBody';
 
-function Works() {
+function Works(props) {
+  
   return (
-    <div className={styles.works}>
+    <div className={styles.main}>
       <div className={styles.container}>
         <WorksHeader />
-        <WorksBody />
+        <WorksBody projects={props.projects}/>
       </div>
     </div>
   );

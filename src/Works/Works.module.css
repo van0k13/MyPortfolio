@@ -1,4 +1,4 @@
-.works {
+.main {
   min-height: 100vh;
   background-color: #1f1f20;
   display: flex;
@@ -8,10 +8,8 @@
 .container {
   width: 80%;
   display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
 }
