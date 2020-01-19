@@ -53,10 +53,7 @@ const store = {
         ],
         projects: [
             { id: 1, img: portfolio, name: 'portfolio', description: 'skill description and skill description and skill description and skill description', link: 'fd' },
-            { id: 2, img: SocialPage, name: 'social page', description: 'skill description and skill description and skill description and skill description', link: 'fd' },
-            { id: 2, img: SocialPage, name: 'social page', description: 'skill description and skill description and skill description and skill description', link: 'fd' },
-            { id: 2, img: SocialPage, name: 'social page', description: 'skill description and skill description and skill description and skill description', link: 'fd' },
-            { id: 2, img: SocialPage, name: 'social page', description: 'skill description and skill description and skill description and skill description', link: 'fd' },
+           { id: 2, img: SocialPage, name: 'social page', description: 'skill description and skill description and skill description and skill description', link: 'fd' },
             { id: 3, img: todolist, name: 'todo-List', description: 'skill description and skill description and skill description and skill description', link: 'fd' },
             { id: 4, img: countingMachine, name: 'counting-machine', description: 'skill description and skill description and skill description and skill description', link: 'fd' }
         ]

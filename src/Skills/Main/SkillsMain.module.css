@@ -14,13 +14,16 @@
   color: rgb(0, 0, 0);
   justify-content: space-around;
 }
-.textStylization{
-  color: aliceblue;
-  font-weight: 300;
-  transition: 2s all;
-  opacity: 0.7;
+
+.h2Text{
+  composes: spanText from '../../index.css';
+  text-transform: capitalize;
 }
-.textStylization:hover{
+.spanText {
+  composes: spanText from '../../index.css'
+}
+
+.h2Text:hover{
   opacity: 1;
   transition: 2s all;
   transform: rotateX(360deg);

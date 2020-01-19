@@ -10,8 +10,8 @@ function SkillMain(props) {
         <img src={props.img} alt='description' />
       </div>
       <div className={styles.textBlock}>
-        <h2 className={styles.textStylization}>{props.name}</h2>
-        <span className={styles.textStylization}>{props.text}</span>
+        <h2 className={styles.h2Text}>{props.name}</h2>
+        <span className={styles.spanText}>{props.text}</span>
       </div>
     </div>
   );

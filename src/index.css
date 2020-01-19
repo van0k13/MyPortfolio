@@ -33,7 +33,13 @@ code {
   margin: 20px auto;
 }
 
-
+.spanText {
+  color: aliceblue;
+  font-weight: 300;
+  transition: 2s all;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
 .iconsFooter {
   width: 60px;
   height: 60px;

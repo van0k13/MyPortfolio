@@ -4,13 +4,13 @@ import styles from './WorksBody.module.css';
 function WorkBody(props) {
   return (
       <div className={styles.worksBlock}>
-        <div className={styles.worksPhotoBlock}>
-          <img src={props.img} alt='icon' />
+        <div >
+          <img className={styles.worksPhotoBlock} src={props.img} alt='icon' />
         </div>
         <button className={styles.worksButton}>
           <span>Open</span>
         </button>
-        <h2 className={styles.spanText}>{props.name}</h2>
+        <h2 className={styles.h2Text}>{props.name}</h2>
         <span className={styles.spanText}>{props.text}</span>
       </div>
   );
