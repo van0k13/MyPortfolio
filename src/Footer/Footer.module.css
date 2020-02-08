@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .container {
@@ -37,17 +38,35 @@
 .img1 {
   background: url(img/facebook.png);
   composes: iconsFooter from '../index.css';
+  transform: scale(0.9);
+}
+.img1:hover{
+transform: scale(0.7);
 }
 
 .img2 {
   background: url(img/instagram.png);
   composes: iconsFooter from '../index.css';
 }
+.img2:hover{
+  transform: scale(0.8);
+  }
 
 .img3 {
-  background: url(img/twitter.png);
+  background: url(img/githab.png);
   composes: iconsFooter from '../index.css';
 }
+.img3:hover{
+  transform: scale(0.8);
+  }
+.img4 {
+  background: url(img/telega.png);
+  composes: iconsFooter from '../index.css';
+  transform: scale(1.2);
+}
+.img4:hover{
+  transform: scale(1);
+  }
 
 .bottom {
   color: aliceblue;

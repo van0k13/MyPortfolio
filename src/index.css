@@ -4,6 +4,7 @@ body {
   color: aliceblue;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(33, 37, 41);
 }
 
 code {
@@ -40,12 +41,33 @@ code {
   opacity: 0.7;
   letter-spacing: 1px;
 }
+
+
 .iconsFooter {
   width: 60px;
   height: 60px;
+  transition: 300ms;
   background-size: 100% !important;
   background-repeat: no-repeat !important;
+  position: relative;
 }
+/* .iconsFooter::before{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+	left: 28px;
+	width: 8px;
+  opacity: 0;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+  border-bottom-color: #141212;
+  transition: 0.3s ;
+}
+.iconsFooter:hover::before {
+  bottom: -20px;
+  opacity: 1;	
+} */
+
 
 .mainButton {
   color: rgba(255, 255, 255, 0);

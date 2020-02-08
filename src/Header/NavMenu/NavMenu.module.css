@@ -2,10 +2,13 @@
   width: 400px;
   display: flex;
   justify-content: space-between;
-  
 }
 
-.link {
+.navMenu > .active {
+  border-bottom: 2px solid white;
+}
+
+.link{
   text-decoration: none;
   color: aliceblue;
   padding-bottom: 3px;

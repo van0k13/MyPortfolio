@@ -5,10 +5,10 @@ import css from './Skills/Main/images/css.png';
 import js from './Skills/Main/images/js.png';
 import jsx from './Skills/Main/images/jsx.png';
 import nodejs from './Skills/Main/images/nodejs.svg';
-import portfolio from './Works/Body/images/portfolio.jpeg';
-import SocialPage from './Works/Body/images/SocialPage.jpg';
-import todolist from './Works/Body/images/todolist.png';
-import countingMachine from './Works/Body/images/countingMachine.jpg';
+import portfolio from './Works/Body/images/portfolio.png';
+import SocialPage from './Works/Body/images/socials.png';
+import todolist from './Works/Body/images/todolist.jpg';
+import countingMachine from './Works/Body/images/numerals.jpg';
 
 
 

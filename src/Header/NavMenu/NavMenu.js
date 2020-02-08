@@ -1,14 +1,30 @@
 import React from 'react';
 import styles from './NavMenu.module.css';
-import {NavLink} from 'react-router-dom';
+import { Link } from "react-scroll";
 
 function NavMenu() {
   return (
     <div className={styles.navMenu}>
-      <NavLink to='main' className={styles.link}>Main</NavLink>
-      <NavLink to='skills' className={styles.link}>Skills</NavLink>
-      <NavLink to='projects' className={styles.link}>Projects</NavLink>
-      <NavLink to='contacts' className={styles.link}>Contacts</NavLink>
+      <Link spy={true}
+        smooth={true}
+        offset={0}
+        duration={700} to="main" className={styles.link}>Main
+        </Link>
+      <Link spy={true}
+        smooth={true}
+        offset={0}
+        duration={700} to="skills" className={styles.link}>Skills
+        </Link>
+      <Link spy={false}
+        smooth={true}
+        offset={0}
+        duration={700} to="projects" className={styles.link}>Projects
+        </Link>
+      <Link spy={true}
+        smooth={true}
+        offset={0}
+        duration={700} to="contacts" className={styles.link}>Contacts
+        </Link>
     </div>
   );
 }

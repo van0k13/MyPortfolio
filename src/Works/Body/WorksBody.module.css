@@ -2,16 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 20px;
+  padding-bottom: 40px;
 }
 .worksBlock {
   width: 330px;
   flex-direction: column;
   display: flex;
-  margin: 10px;
+  margin: 5px;
   align-items: center;
   color: rgb(0, 0, 0);
-  justify-content: space-around; 
+  justify-content: start;
+  position: relative;
 }@media screen and (max-width: 500px) {
   .worksBlock{
     width: 100%;
@@ -20,46 +21,34 @@
 
 .worksPhotoBlock {
   width: 100%;
+  filter: grayscale(.55);
+  filter: blur(2px);
   height: 450px;
   margin: 10px !important;
+  transition: 400ms ease-in-out 0s;
+}
+.worksPhotoBlock:hover {
+  filter: grayscale(.15);
+  filter: blur(0px);
+}
+.textBlock{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
 }
 .h2Text{
-  composes: spanText from '../../index.css';
-  text-transform: capitalize;
-}
-.spanText {
-  composes: spanText from '../../index.css'
-}
-.spanText:hover{
-  opacity: 1;
+  color:rgba(68, 75, 139, 0.932);
+  font-weight: 500;
   transition: 2s all;
-  transform: rotateX(360deg);
-  color:  rgb(76, 100, 100)
+  opacity: 0.1;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 150px;
+  left: 110px;
 }
-
-
-.worksButton {
-  composes: mainButton from '../../index.css';
-  opacity: 0.4;
-  border-radius: 20px;
-	width: 70%;
-  background-color: rgb(153, 162, 177);
-}
-.worksButton span {
-	transition: all 0.3s;
-}
-.worksButton:hover span {
-  letter-spacing: 5px;
-  font-size: 25px;
-  color:  rgb(76, 100, 100)
-}
-.worksButton::after {
-  background-color: rgba(224, 50, 50, 0);
-  border-radius: 20px;
-}
-.worksButton:hover::after {
-	opacity: 0;	
-  transform: scale(0.1, 1);
-  border-radius: 20px;
-  background-color: rgb(33, 37, 41);
+.h2Text:hover{
+  opacity: 1;
+  z-index: 2;
 }
