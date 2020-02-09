@@ -4,51 +4,55 @@
   justify-content: space-evenly;
   padding-bottom: 40px;
 }
-.worksBlock {
-  width: 330px;
-  flex-direction: column;
-  display: flex;
-  margin: 5px;
-  align-items: center;
-  color: rgb(0, 0, 0);
-  justify-content: start;
+.container {
   position: relative;
-}@media screen and (max-width: 500px) {
-  .worksBlock{
-    width: 100%;
-  }
+  width: 48%;
+  margin: 10px;
+  overflow: hidden;
 }
 
-.worksPhotoBlock {
-  width: 100%;
-  filter: grayscale(.55);
-  filter: blur(2px);
-  height: 450px;
-  margin: 10px !important;
-  transition: 400ms ease-in-out 0s;
-}
-.worksPhotoBlock:hover {
-  filter: grayscale(.15);
-  filter: blur(0px);
-}
-.textBlock{
-  position: absolute;
+.image {
+  display: block;
   width: 100%;
   height: 100%;
-  border: 2px solid red;
+  transition: .3s ease;
 }
-.h2Text{
-  color:rgba(68, 75, 139, 0.932);
-  font-weight: 500;
-  transition: 2s all;
-  opacity: 0.1;
-  letter-spacing: 3px;
-  text-transform: capitalize;
+
+.overlay {
   position: absolute;
-  bottom: 150px;
-  left: 110px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgba(66, 63, 63, 0.479);
 }
-.h2Text:hover{
+
+.container:hover .overlay {
   opacity: 1;
-  z-index: 2;
+  
+}
+.container:hover .image {
+  filter: blur(2px);
+  transform: scale(1.1);
+}
+
+.text {
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #252527;
+  font-size: 30px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: .3s ease;
+}
+.container:hover .text {
+  top: 50%;
 }
