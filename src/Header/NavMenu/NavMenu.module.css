@@ -5,7 +5,8 @@
 }
 
 .navMenu > .active {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(182, 7, 7);
+  color: blue;
 }
 
 .link{

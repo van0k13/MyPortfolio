@@ -6,9 +6,13 @@
 }
 .container {
   position: relative;
-  width: 48%;
+  width: 45%;
   margin: 10px;
   overflow: hidden;
+}@media screen and (max-width: 500px){
+  .container {
+    width: 100%;
+  }
 }
 
 .image {
