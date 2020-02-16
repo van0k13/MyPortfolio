@@ -36,37 +36,23 @@
   }
 }
 .img1 {
-  background: url(img/facebook.png);
+  background: url(../img/imagesFooterBlock/facebook.svg);
   composes: iconsFooter from '../index.css';
-  transform: scale(0.9);
-}
-.img1:hover{
-transform: scale(0.7);
 }
 
 .img2 {
-  background: url(img/instagram.png);
+  background: url(../img/imagesFooterBlock/instagram.svg);
   composes: iconsFooter from '../index.css';
 }
-.img2:hover{
-  transform: scale(0.8);
-  }
 
 .img3 {
-  background: url(img/githab.png);
+  background: url(../img/imagesFooterBlock/github.svg);
   composes: iconsFooter from '../index.css';
 }
-.img3:hover{
-  transform: scale(0.8);
-  }
 .img4 {
-  background: url(img/telega.png);
+  background: url(../img/imagesFooterBlock/telegram.svg);
   composes: iconsFooter from '../index.css';
-  transform: scale(1.2);
 }
-.img4:hover{
-  transform: scale(1);
-  }
 
 .bottom {
   color: aliceblue;

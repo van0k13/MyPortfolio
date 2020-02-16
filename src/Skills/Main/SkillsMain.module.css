@@ -43,10 +43,10 @@
   margin-top: 20px;
 }
 .photoBack {
-  background-color: rgba(60, 65, 63, 0.979);
+  background-color: rgba(60, 65, 63, 0.288);
   position: absolute;
   top: -5px;
-  left: -5px;
+  left: -6px;
   border-radius: 5px;
   width: 200px;
   height: 200px;
@@ -56,6 +56,6 @@
   transform: rotate(45deg);
   transition: 1s;
 }.photoBack:hover{
-  background-color: rgba(60, 65, 63, 0.288);
   transition: 1s;
+  transform: rotate(90deg);
 }

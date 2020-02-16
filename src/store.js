@@ -1,14 +1,14 @@
-import react from './Skills/Main/images/react.png';
-import redux from './Skills/Main/images/redux.png';
-import html from './Skills/Main/images/html.jpg';
-import css from './Skills/Main/images/css.png';
-import js from './Skills/Main/images/js.png';
-import jsx from './Skills/Main/images/jsx.png';
-import nodejs from './Skills/Main/images/nodejs.svg';
-import portfolio from './Works/Body/images/portfolio.png';
-import SocialPage from './Works/Body/images/socials.png';
-import todolist from './Works/Body/images/todolist.jpg';
-import countingMachine from './Works/Body/images/numerals.jpg';
+import react from './img/imagesSkillsBlock/react.png';
+import redux from './img/imagesSkillsBlock/redux.png';
+import html from './img/imagesSkillsBlock/html.jpg';
+import css from './img/imagesSkillsBlock/css.png';
+import js from './img/imagesSkillsBlock/js.png';
+import jsx from './img/imagesSkillsBlock/jsx.png';
+import nodejs from './img/imagesSkillsBlock/nodejs.svg';
+import portfolio from './img/imagesProjectsBlock/portfolio.png';
+import SocialPage from './img/imagesProjectsBlock/socials.png';
+import todolist from './img/imagesProjectsBlock/todolist.jpg';
+import countingMachine from './img/imagesProjectsBlock/numerals2.jpg';
 
 
 
@@ -52,10 +52,10 @@ const store = {
             }
         ],
         projects: [
-            { id: 1, img: portfolio, name: 'portfolio' },
-            { id: 2, img: SocialPage, name: 'social page' },
-            { id: 3, img: todolist, name: 'to do List' },
-            { id: 4, img: countingMachine, name: 'counter' }
+            { id: 1, img: portfolio, name: 'portfolio', site: 'https://github.com/van0k13/MyPortfolio' },
+            { id: 2, img: SocialPage, name: 'social page', site: 'https://github.com/van0k13/SocialNetwork' },
+            { id: 3, img: todolist, name: 'to do List', site: 'https://github.com/van0k13/MyProjects' },
+            { id: 4, img: countingMachine, name: 'counter', site: 'https://github.com/van0k13/CountingMachine' }
         ]
     }
 }

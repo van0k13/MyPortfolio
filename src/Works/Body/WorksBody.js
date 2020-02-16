@@ -4,7 +4,7 @@ import WorkBody from './WorkBody';
 
 function WorksBody(props) {
   let projectsElements = props.projects.map(p =>
-    <WorkBody name={p.name} img={p.img} text={p.description} />)
+    <WorkBody name={p.name} img={p.img} site={p.site} />)
   return (
     <div className={styles.mainBlocks}>
       {projectsElements}

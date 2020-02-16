@@ -9,22 +9,22 @@ function NavMenu() {
         smooth={true}
         offset={0}
         duration={700} to="main" className={styles.link}>Main
-        </Link>
+      </Link>
       <Link spy={true}
         smooth={true}
         offset={0}
         duration={700} to="skills" className={styles.link}>Skills
-        </Link>
+      </Link>
       <Link spy={false}
         smooth={true}
         offset={0}
         duration={700} to="projects" className={styles.link}>Projects
-        </Link>
+      </Link>
       <Link spy={true}
         smooth={true}
         offset={0}
         duration={700} to="contacts" className={styles.link}>Contacts
-        </Link>
+      </Link>
     </div>
   );
 }

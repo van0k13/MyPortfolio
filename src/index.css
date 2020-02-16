@@ -50,6 +50,14 @@ code {
   background-size: 100% !important;
   background-repeat: no-repeat !important;
   position: relative;
+}@media screen and (max-width: 500px) {
+  .iconsFooter {
+    width: 40px;
+    height: 40px;
+  }
+}
+.iconsFooter:hover {
+  transform: scale(0.8);
 }
 /* .iconsFooter::before{
   content: '';

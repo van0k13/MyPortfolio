@@ -33,6 +33,10 @@
   opacity: 0;
   transition: .3s ease;
   background-color: rgba(66, 63, 63, 0.479);
+}@media screen and (max-width: 500px){
+  .container .overlay {
+    opacity: 1;
+  }
 }
 
 .container:hover .overlay {
@@ -48,7 +52,7 @@
   text-transform: capitalize;
   font-weight: 500;
   letter-spacing: 3px;
-  color: #252527;
+  color: #252527c9;
   font-size: 30px;
   position: absolute;
   top: 60%;
@@ -59,4 +63,9 @@
 }
 .container:hover .text {
   top: 50%;
+}
+.text div a {
+  text-decoration: none;
+  color: azure;
+  font-size: 15px;
 }
