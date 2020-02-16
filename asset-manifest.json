@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.1d4c3d31.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.68410b74.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.68410b74.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.682357c3.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.bf014738.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.bf014738.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.3ce5fa07.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.3ce5fa07.js.map",
     "static/js/2.c4d6eb52.chunk.js": "/MyPortfolio/static/js/2.c4d6eb52.chunk.js",
     "static/js/2.c4d6eb52.chunk.js.map": "/MyPortfolio/static/js/2.c4d6eb52.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.ce83093102b0d448b497ede7d144dc3e.js": "/MyPortfolio/precache-manifest.ce83093102b0d448b497ede7d144dc3e.js",
+    "precache-manifest.824a840bdb72610485e02c0cec432d7e.js": "/MyPortfolio/precache-manifest.824a840bdb72610485e02c0cec432d7e.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
-    "static/css/main.1d4c3d31.chunk.css.map": "/MyPortfolio/static/css/main.1d4c3d31.chunk.css.map",
+    "static/css/main.682357c3.chunk.css.map": "/MyPortfolio/static/css/main.682357c3.chunk.css.map",
     "static/media/css.png": "/MyPortfolio/static/media/css.442b83f2.png",
+    "static/media/Footer.module.css": "/MyPortfolio/static/media/telegram.f617ffe5.svg",
     "static/media/html.jpg": "/MyPortfolio/static/media/html.cc47a9ef.jpg",
     "static/media/js.png": "/MyPortfolio/static/media/js.9ca76264.png",
     "static/media/jsx.png": "/MyPortfolio/static/media/jsx.5032d510.png",
     "static/media/Main.module.css": "/MyPortfolio/static/media/me.583f3d91.jpg",
     "static/media/nodejs.svg": "/MyPortfolio/static/media/nodejs.b337a2fb.svg",
-    "static/media/numerals.jpg": "/MyPortfolio/static/media/numerals.52ab39f1.jpg",
+    "static/media/numerals2.jpg": "/MyPortfolio/static/media/numerals2.70ff1a4e.jpg",
     "static/media/portfolio.png": "/MyPortfolio/static/media/portfolio.e4b20be9.png",
     "static/media/redux.png": "/MyPortfolio/static/media/redux.c8f44df3.png",
     "static/media/socials.png": "/MyPortfolio/static/media/socials.35beb323.png",
@@ -26,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.3ce5fa07.js",
     "static/js/2.c4d6eb52.chunk.js",
-    "static/css/main.1d4c3d31.chunk.css",
-    "static/js/main.68410b74.chunk.js"
+    "static/css/main.682357c3.chunk.css",
+    "static/js/main.bf014738.chunk.js"
   ]
 }

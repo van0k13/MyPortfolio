@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08b6ed3164df6a62ea50f00cf2d15389",
+    "revision": "56cfbb84f02d406d9953040a63fb181b",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "9d95eeec4288c532c6e7",
-    "url": "/MyPortfolio/static/css/main.1d4c3d31.chunk.css"
+    "revision": "90bd66c479e8d8024f49",
+    "url": "/MyPortfolio/static/css/main.682357c3.chunk.css"
   },
   {
     "revision": "4559983883b7525cfe8a",
     "url": "/MyPortfolio/static/js/2.c4d6eb52.chunk.js"
   },
   {
-    "revision": "9d95eeec4288c532c6e7",
-    "url": "/MyPortfolio/static/js/main.68410b74.chunk.js"
+    "revision": "90bd66c479e8d8024f49",
+    "url": "/MyPortfolio/static/js/main.bf014738.chunk.js"
   },
   {
     "revision": "f78a6f71ee33975f051f",
@@ -24,8 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/media/css.442b83f2.png"
   },
   {
+    "revision": "0c9f17b62e73de60428b686da16104d6",
+    "url": "/MyPortfolio/static/media/facebook.0c9f17b6.svg"
+  },
+  {
+    "revision": "f445b6c072936288fbd083b4a056ce1f",
+    "url": "/MyPortfolio/static/media/github.f445b6c0.svg"
+  },
+  {
     "revision": "cc47a9ef792be7d77cd15c5661cc1ac8",
     "url": "/MyPortfolio/static/media/html.cc47a9ef.jpg"
+  },
+  {
+    "revision": "343b12ed6ea814d2bf2709a9a7eb87d0",
+    "url": "/MyPortfolio/static/media/instagram.343b12ed.svg"
   },
   {
     "revision": "9ca76264406c826140a2f06114d634e1",
@@ -44,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/media/nodejs.b337a2fb.svg"
   },
   {
-    "revision": "52ab39f17aabc2eaff5bb23dabf1d9ce",
-    "url": "/MyPortfolio/static/media/numerals.52ab39f1.jpg"
+    "revision": "70ff1a4e8c5e5b557e30e1e1608bf883",
+    "url": "/MyPortfolio/static/media/numerals2.70ff1a4e.jpg"
   },
   {
     "revision": "e4b20be960395df3007f384d99041620",
@@ -58,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "35beb32386eb244f40e1f6cba9afed4f",
     "url": "/MyPortfolio/static/media/socials.35beb323.png"
+  },
+  {
+    "revision": "f617ffe597eafbcd7936b5789c568784",
+    "url": "/MyPortfolio/static/media/telegram.f617ffe5.svg"
   },
   {
     "revision": "817aed76509bf2c20e4d53eb98d51254",
