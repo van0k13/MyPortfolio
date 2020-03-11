@@ -22,9 +22,9 @@
 }
 
 .top {
-  composes: headerTitle from '../index.css';
+  composes: headerTitle from '../../index.css';
 }.line{
-  composes: line from '../index.css';
+  composes: line from '../../index.css';
 }
 .socials {
   display: flex;
@@ -36,22 +36,22 @@
   }
 }
 .img1 {
-  background: url(../img/imagesFooterBlock/facebook.svg);
-  composes: iconsFooter from '../index.css';
+  background: url(../../assets/img/imagesFooterBlock/facebook.svg);
+  composes: iconsFooter from '../../index.css';
 }
 
 .img2 {
-  background: url(../img/imagesFooterBlock/instagram.svg);
-  composes: iconsFooter from '../index.css';
+  background: url(../../assets/img/imagesFooterBlock/instagram.svg);
+  composes: iconsFooter from '../../index.css';
 }
 
 .img3 {
-  background: url(../img/imagesFooterBlock/github.svg);
-  composes: iconsFooter from '../index.css';
+  background: url(../../assets/img/imagesFooterBlock/github.svg);
+  composes: iconsFooter from '../../index.css';
 }
 .img4 {
-  background: url(../img/imagesFooterBlock/telegram.svg);
-  composes: iconsFooter from '../index.css';
+  background: url(../../assets/img/imagesFooterBlock/telegram.svg);
+  composes: iconsFooter from '../../index.css';
 }
 
 .bottom {

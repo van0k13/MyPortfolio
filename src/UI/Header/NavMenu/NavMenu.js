@@ -6,21 +6,25 @@ function NavMenu() {
   return (
     <div className={styles.navMenu}>
       <Link spy={true}
+        activeClass={styles.active}
         smooth={true}
         offset={0}
         duration={700} to="main" className={styles.link}>Main
       </Link>
       <Link spy={true}
+        activeClass={styles.active}
         smooth={true}
         offset={0}
         duration={700} to="skills" className={styles.link}>Skills
       </Link>
-      <Link spy={false}
+      <Link spy={true}
+        activeClass={styles.active}
         smooth={true}
         offset={0}
         duration={700} to="projects" className={styles.link}>Projects
       </Link>
       <Link spy={true}
+        activeClass={styles.active}
         smooth={true}
         offset={0}
         duration={700} to="contacts" className={styles.link}>Contacts

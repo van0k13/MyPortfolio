@@ -15,7 +15,7 @@
   min-height: 250px;
 }
 .line{
-  composes: line from '../index.css';
+  composes: line from '../../index.css';
   margin: 10px auto;
 }
 .textAndLine {
@@ -31,7 +31,7 @@
 }
 
 .text{
-  composes: headerTitle from '../index.css';
+  composes: headerTitle from '../../index.css';
 }@media screen and (max-width: 500px) {
   .text{
     width: 80%;
@@ -44,7 +44,7 @@
 }
 
 .worksButton {
-  composes: mainButton from '../index.css';
+  composes: mainButton from '../../index.css';
 }
 .worksButton span {
   transition: all 0.3s;

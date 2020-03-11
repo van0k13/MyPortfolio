@@ -1,0 +1,12 @@
+.header {
+  composes: header from '../../../index.css';
+  padding-bottom: 87px;
+}
+.headerTitle {
+  composes: headerTitle from '../../../index.css';
+  padding-bottom: 10px;
+}
+.line{
+  composes: line from '../../../index.css';
+}
+

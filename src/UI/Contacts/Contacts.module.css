@@ -22,11 +22,11 @@
   flex-direction: column;
 }
 .linee{
-  composes: line from '../index.css';
+  composes: line from '../../index.css';
   margin-bottom: 40px;
 }
 .text{
-  composes: headerTitle from '../index.css';
+  composes: headerTitle from '../../index.css';
   margin-top: 70px;
 }@media screen and (max-width: 500px) {
   .text {
@@ -64,7 +64,7 @@
   padding: 40px;
 }
 .worksButton {
-  composes: mainButton from '../index.css';
+  composes: mainButton from '../../index.css';
 }
 .worksButton span {
   transition: all 0.3s;

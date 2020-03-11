@@ -6,8 +6,8 @@
 }
 
 .navMenu > .active {
-  border-bottom: 2px solid rgb(182, 7, 7);
-  color: blue;
+  border-bottom: 2px solid rgba(68, 75, 139, 0.658);
+  color: rgb(85, 112, 112);
 }
 
 .link{
@@ -15,4 +15,5 @@
   color: aliceblue;
   padding-bottom: 3px;
   font-weight: 400;
+  letter-spacing: 2px;
 }

@@ -1,18 +1,21 @@
 import React from 'react';
 import './App.css';
-import Header from './Header/Header';
-import Main from './Main/Main';
-import Skills from './Skills/Skills';
-import Works from './Works/Works';
-import Slogan from './Slogan/Slogan';
-import Contacts from './Contacts/Contacts';
-import Footer from './Footer/Footer';
+import Header from './UI/Header/Header';
+import Main from './UI/Main/Main';
+import Skills from './UI/Skills/Skills';
+import Works from './UI/Works/Works';
+import Slogan from './UI/Slogan/Slogan';
+import Contacts from './UI/Contacts/Contacts';
+import Footer from './UI/Footer/Footer';
 import Particles from 'react-particles-js';
+import { Provider, connect } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import store from './BLL/redux-store';
 
 
 
 
-function App(props) {
+const App = (props) => {
   const ParticlesOpt = {
     particles: {
       number: {
@@ -29,8 +32,8 @@ function App(props) {
       <Particles className="patricles" params={ParticlesOpt} />
       <Header />
       <Main />
-      <Skills skills={props.store.state.skills} />
-      <Works projects={props.store.state.projects} />
+      <Skills skills={props.skills} />
+      <Works projects={props.projects} />
       <Slogan />
       <Contacts />
       <Footer />
@@ -38,4 +41,17 @@ function App(props) {
   );
 }
 
-export default App;
+const mstp = (state) => ({
+  skills: state.skills,
+  projects: state.projects
+})
+const AppContainer = connect(mstp)(App)
+const MainApp = (props) => {
+  return <BrowserRouter>
+    <Provider store={store} >
+      <AppContainer />
+    </Provider >
+  </BrowserRouter>
+};
+
+export default MainApp;

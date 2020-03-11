@@ -16,11 +16,11 @@
 }
 
 .h2Text{
-  composes: spanText from '../../index.css';
+  composes: spanText from '../../../index.css';
   text-transform: capitalize;
 }
 .spanText {
-  composes: spanText from '../../index.css'
+  composes: spanText from '../../../index.css'
 }
 
 .h2Text:hover{
