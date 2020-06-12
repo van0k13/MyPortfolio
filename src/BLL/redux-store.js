@@ -1,15 +1,20 @@
-import { combineReducers, createStore } from "redux";
+import {applyMiddleware, combineReducers, createStore} from "redux";
+import thunkMiddleware from 'redux-thunk'
 import skillsReducer from "./skillsReducer";
 import worksReducer from "./worksReducer";
+import contactsReducer from "./contactsReducer";
+import navMenuReducer from "./navMenu";
 
 
 
-const reducerPack = combineReducers({
+const reducersPack = combineReducers({
     skills: skillsReducer,
-    projects: worksReducer
+    projects: worksReducer,
+    contacts: contactsReducer,
+    navMenu: navMenuReducer
 });
 
-const store = createStore(reducerPack);
+const store = createStore(reducersPack, applyMiddleware(thunkMiddleware));
 
 
 export default store

@@ -5,17 +5,17 @@ import Main from './UI/Main/Main';
 import Skills from './UI/Skills/Skills';
 import Works from './UI/Works/Works';
 import Slogan from './UI/Slogan/Slogan';
-import Contacts from './UI/Contacts/Contacts';
+import ContactsContainer from './UI/Contacts/ContactsContainer';
 import Footer from './UI/Footer/Footer';
 import Particles from 'react-particles-js';
-import { Provider, connect } from 'react-redux';
+import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import store from './BLL/redux-store';
 
 
 
 
-const App = (props) => {
+const App = () => {
   const ParticlesOpt = {
     particles: {
       number: {
@@ -32,24 +32,19 @@ const App = (props) => {
       <Particles className="patricles" params={ParticlesOpt} />
       <Header />
       <Main />
-      <Skills skills={props.skills} />
-      <Works projects={props.projects} />
+      <Skills />
+      <Works />
       <Slogan />
-      <Contacts />
+      <ContactsContainer />
       <Footer />
     </div>
   );
 }
 
-const mstp = (state) => ({
-  skills: state.skills,
-  projects: state.projects
-})
-const AppContainer = connect(mstp)(App)
-const MainApp = (props) => {
+const MainApp = () => {
   return <BrowserRouter>
     <Provider store={store} >
-      <AppContainer />
+      <App />
     </Provider >
   </BrowserRouter>
 };

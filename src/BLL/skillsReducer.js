@@ -6,47 +6,68 @@ import js from '../assets/img/imagesSkillsBlock/js.png';
 import jsx from '../assets/img/imagesSkillsBlock/jsx.png';
 import nodejs from '../assets/img/imagesSkillsBlock/nodejs.svg';
 
-const initialState =  [
-    {
-        id: 1, name: 'React',
-        img: react,
-        description: 'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
-    },
-    {
-        id: 1, name: 'Redux',
-        img: redux,
-        description: 'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
-    },
-    {
-        id: 2, name: 'HTML',
-        img: html,
-        description: 'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
-    },
-    {
-        id: 2, name: 'CSS',
-        img: css,
-        description: 'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
-    },
-    {
-        id: 2, name: 'JS',
-        img: js,
-        description: 'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
-    },
-    {
-        id: 2, name: 'JSX',
-        img: jsx,
-        description: 'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
-    },
-    {
-        id: 3, name: 'NodeJS',
-        img: nodejs,
-        description: 'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
-    }
-]
+const initialState = {
+    skills: [
+        {
+            id: 1,
+            name: 'React',
+            img: react,
+            description:
+                'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
+        },
+        {
+            id: 2,
+            name: 'Redux',
+            img: redux,
+            description:
+                'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
+        }
+        ,
+        {
+            id: 3,
+            name: 'HTML',
+            img: html,
+            description:
+                'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
+        }
+        ,
+        {
+            id: 4,
+            name: 'CSS',
+            img: css,
+            description:
+                'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
+        }
+        ,
+        {
+            id: 5,
+            name: 'JS',
+            img: js,
+            description:
+                'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
+        }
+        ,
+        {
+            id: 6,
+            name: 'JSX',
+            img: jsx,
+            description:
+                'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
+        }
+        ,
+        {
+            id: 7,
+            name: 'NodeJS',
+            img: nodejs,
+            description:
+                'vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim'
+        }
+    ]
+}
 
 const skillsReducer = (state = initialState, action) => {
     switch (action.type) {
-        
+
         default:
             return state;
     }

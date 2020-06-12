@@ -92,3 +92,7 @@
 .worksButton:active span {
   letter-spacing: 5px;
 }
+.imgGood {
+  width: 300px;
+  height: 300px;
+}

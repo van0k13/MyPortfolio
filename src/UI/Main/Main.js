@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css';
 
-function Main() {
+const Main = () => {
   return (
     <div id='main' className={styles.main}>
       <div className={styles.container}>

@@ -4,13 +4,13 @@ import SkillsHeader from './Header/SkillsHeader';
 import SkillsMain from './Main/SkillsMain';
 import Fade from 'react-reveal/Fade'
 
-function Skills(props) {
+function Skills() {
   return (
     <div className={styles.skills}>
       <Fade>
       <div id={'skills'} className={styles.container}>
         <SkillsHeader />
-        <SkillsMain skills={props.skills}/>
+        <SkillsMain />
       </div>
       </Fade>
     </div>

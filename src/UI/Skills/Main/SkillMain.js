@@ -1,20 +1,18 @@
 import React from 'react';
 import styles from './SkillsMain.module.css';
 
-function SkillMain(props) {
-  return (
-    <div className={styles.skillName}>
-      <div className={styles.skillPhoto1}>
-        <div className={styles.photoBack}>
+const SkillMain = ({img, text, name}) => {
+    return <div className={styles.skillName}>
+        <div className={styles.skillPhoto1}>
+            <div className={styles.photoBack}>
+            </div>
+            <img src={img} alt='description'/>
         </div>
-        <img src={props.img} alt='description' />
-      </div>
-      <div className={styles.textBlock}>
-        <h2 className={styles.h2Text}>{props.name}</h2>
-        <span className={styles.spanText}>{props.text}</span>
-      </div>
+        <div className={styles.textBlock}>
+            <h2 className={styles.h2Text}>{name}</h2>
+            <span className={styles.spanText}>{text}</span>
+        </div>
     </div>
-  );
 }
 
 export default SkillMain;
